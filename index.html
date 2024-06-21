@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Random Gentretor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello world</h1>
+    <header>
+        <h1>Генерация</h1>
+        <nav class="menu">
+            <a class="nav-menu-element" href="">числа</a>
+            <a class="nav-menu-element" href="">строки</a>
+            <a class="nav-menu-element" href="">опция 3</a>
+        </nav>
+    </header>
+    <hr>
+    <div class="main-elements">
+        <p>случайное число от</p>
+        <input class="numbers-first-input" type="numbers" placeholder="первое число">
+        <p>до</p>
+        <input class="numbers-second-input" type="number" placeholder="второе число">
+        <p>||</p>
+        <h2 class="result">0</h2>
+        <button class="generate-btn">Генерировать</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
